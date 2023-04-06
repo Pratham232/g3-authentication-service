@@ -1,0 +1,24 @@
+2023-04-06T02:00:43.437+05:30  INFO 13540 --- [main] .a.AuthenticationServiceApplicationTests : Starting AuthenticationServiceApplicationTests using Java 17.0.6 with PID 13540 (started by prath in C:\Users\prath\OneDrive\Desktop\finalrepo\final_repo\Microservices\g3-authentication-service)
+2023-04-06T02:00:43.450+05:30  INFO 13540 --- [main] .a.AuthenticationServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-04-06T02:00:46.002+05:30  INFO 13540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-06T02:00:46.330+05:30  INFO 13540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 312 ms. Found 1 JPA repository interfaces.
+2023-04-06T02:00:46.837+05:30  INFO 13540 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f7ebe1b0-786d-37de-954e-4d25cbd69977
+2023-04-06T02:00:47.109+05:30  INFO 13540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-06T02:00:47.187+05:30  INFO 13540 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-06T02:00:47.478+05:30  INFO 13540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-06T02:00:47.615+05:30  INFO 13540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-06T02:00:48.202+05:30  INFO 13540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-06T02:00:48.619+05:30  INFO 13540 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20afcc5c
+2023-04-06T02:00:48.624+05:30  INFO 13540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-06T02:00:48.770+05:30  INFO 13540 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-06T02:00:50.061+05:30  INFO 13540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-06T02:00:50.085+05:30  INFO 13540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T02:00:51.061+05:30  WARN 13540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-06T02:00:54.006+05:30  WARN 13540 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-06T02:00:54.025+05:30  INFO 13540 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-06T02:00:54.139+05:30  INFO 13540 --- [main] .a.AuthenticationServiceApplicationTests : Started AuthenticationServiceApplicationTests in 12.238 seconds (process running for 14.834)
+2023-04-06T02:00:54.790+05:30  INFO 13540 --- [main] c.a.s.i.PatientAuthenticationServiceImpl : Patient registered successfully
+2023-04-06T02:00:54.796+05:30 ERROR 13540 --- [main] c.a.s.i.PatientAuthenticationServiceImpl : Cannot invoke "org.modelmapper.ModelMapper.map(Object, java.lang.Class)" because "this.modelmapper" is null
+2023-04-06T02:00:54.942+05:30  INFO 13540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T02:00:55.081+05:30  INFO 13540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-06T02:00:55.090+05:30  INFO 13540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
